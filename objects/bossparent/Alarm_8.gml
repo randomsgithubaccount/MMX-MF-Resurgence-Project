@@ -1,0 +1,2 @@
+resentido=0
+

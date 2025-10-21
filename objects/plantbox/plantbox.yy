@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "plantbox",
+  "spriteId": {
+    "name": "s_plantbox",
+    "path": "sprites/s_plantbox/s_plantbox.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": {
+    "name": "plantbox_mask",
+    "path": "sprites/plantbox_mask/plantbox_mask.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_blockSolid",
+    "path": "objects/obj_blockSolid/obj_blockSolid.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "blocks",
+    "path": "folders/Objects/blocks.yy",
+  },
+}

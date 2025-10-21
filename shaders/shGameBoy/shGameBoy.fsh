@@ -1,0 +1,22 @@
+//
+// Game Boy color simulation fragment shader
+//
+varying vec2 v_vTexcoord;
+varying vec4 v_vColour;
+
+uniform vec4 shades[4];
+
+void main()
+{
+    vec4 vColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
+    
+    // ITU-R BT.709 luminance: Y = 0.2126 R + 0.7152 G + 0.0722 B
+    vec4 vLum = vec4(0.2126, 0.7152, 0.0722, 0.0);
+    float lum = dot(vColor, vLum);
+    
+    gl_FragColor = vColor;
+    if      (lum <= shades[0].a) gl_FragColor.rgb = vec3(shades[0]);
+    else if (lum <= shades[1].a) gl_FragColor.rgb = vec3(shades[1]);
+    else if (lum <= shades[2].a) gl_FragColor.rgb = vec3(shades[2]);
+    else                         gl_FragColor.rgb = vec3(shades[3]);
+}

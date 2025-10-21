@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite_index,image_index,__view_get( e__VW.XView, 0 )+352/2,__view_get( e__VW.YView, 0 )+224/2,image_xscale,image_yscale,0,c_white,image_alpha)

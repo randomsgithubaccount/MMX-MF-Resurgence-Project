@@ -1,0 +1,2 @@
+global.bosshp=5
+

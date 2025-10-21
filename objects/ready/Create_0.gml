@@ -1,0 +1,3 @@
+global.readygo=0
+
+

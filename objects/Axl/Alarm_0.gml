@@ -1,0 +1,2 @@
+shotsprite=0
+
