@@ -1,2 +1,3 @@
 # MMXMF
-A continuation of MegaZX51's Mega Man X Maverick's Fury for PC
+A continuation of MegaZX51's Mega Man X Maverick's Fury 
+Made in GameMaker LTS 
