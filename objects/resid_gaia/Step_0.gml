@@ -1,1 +1,0 @@
-scr_hitbox_normal(0.4,0.4)

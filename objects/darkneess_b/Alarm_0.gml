@@ -1,2 +1,0 @@
-global.oscuridad=0
-

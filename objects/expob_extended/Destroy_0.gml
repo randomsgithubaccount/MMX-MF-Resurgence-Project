@@ -1,2 +1,0 @@
-sound_effect=byeboss
-

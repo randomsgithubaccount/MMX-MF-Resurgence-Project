@@ -1,3 +1,0 @@
-ctrl = objControl
-paused=false
-

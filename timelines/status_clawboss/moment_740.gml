@@ -1,1 +1,0 @@
-sound_effect=SFX_TURNON

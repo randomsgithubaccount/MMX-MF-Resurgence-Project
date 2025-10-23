@@ -1,3 +1,0 @@
-global.bosshp=0
-
-

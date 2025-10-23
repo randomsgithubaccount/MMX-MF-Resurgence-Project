@@ -1,5 +1,0 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-mode=choose(0,1)
-image_speed=0.6
-sound_effect=sfx_dynabuster

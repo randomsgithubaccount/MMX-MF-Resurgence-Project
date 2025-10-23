@@ -1,2 +1,0 @@
-sprite_index=spr_bateyes_backs1
-
